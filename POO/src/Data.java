@@ -65,7 +65,7 @@ public boolean dataValida(int dia, int mes, int ano) {
         Data d2 = new Data();
         Data d3 = new Data();
         d1.iniciaData(30,9,2022);
-        d2.iniciaData(29,2,2022);
+        d2.iniciaData(29,2,2020);
         d3.iniciaData(29,2,2020);
         System.out.println("Data 1: " + d1.toString());
         System.out.println("Data 2: " + d2.toString());

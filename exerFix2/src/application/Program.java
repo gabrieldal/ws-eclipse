@@ -17,8 +17,8 @@ public class Program {
 		String y = sc.nextLine();
 		
 		System.out.println("Is there a initial deposit? (y/n)");
-		String a = sc.nextLine();
-		if(a == "y") {
+		char a = sc.next().charAt(0);
+		if (a == 'y') {
 		System.out.println("Enter initial deposit value: ");
 		double initialDeposit  = sc.nextDouble();
 		account = new Account(x, y, initialDeposit);

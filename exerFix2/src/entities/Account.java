@@ -40,11 +40,11 @@ public class Account {
 		balance += amount;
 	}
 	public void withdrawn(double amount) {
-		balance -= amount - 5.0;
+		balance -= amount + 5.0;
 	}
 	@Override
 	public String toString() {
-		return "Account number =" + number + ", holder =" + holder + ", balance = $" + String.format("%.2f", balance);
+		return "Account " + number + ", Holder: " + holder + ", Balance: $" + String.format("%.2f", balance);
 	}
 	
 }
